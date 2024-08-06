@@ -1,0 +1,14 @@
+{
+    "name": "test/upload",
+    "type": "project",
+    "require": {
+        "aws/aws-sdk-php": "^3.317"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Test\\Upload\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
